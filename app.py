@@ -2,6 +2,8 @@ import dash
 
 app = dash.Dash('my app')
 
+server = app.server
+
 from dash.dependencies import Input, Output
 import dash_html_components as html
 import dash_core_components as dcc
